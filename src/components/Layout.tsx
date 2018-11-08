@@ -6,7 +6,7 @@ import './all.sass';
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title='textkrement.xyz' />
+    <Helmet title='✍💩 textkrement.xyz' />
     <Navbar />
     <div>{children}</div>
   </div>
