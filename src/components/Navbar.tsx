@@ -5,7 +5,7 @@ const Navbar = () => (
   <nav className='navbar'>
     <div className='container'>
       <div className='navbar-start'>
-        <Link to='/' className='navbar-item'>
+        <Link to='/' className='navbar-item has-text-dark'>
          ✍💩 textkrement.xyz
         </Link>
       </div>
