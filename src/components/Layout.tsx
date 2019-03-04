@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import Navbar from '../components/Navbar';
 import './all.sass';
 
-const TemplateWrapper = ({ children }) => (
+export const Layout = ({ children }) => (
   <div>
     <Helmet title='textkrement.xyz' meta={[
       { name: 'description', content: 'Inget särskilt.' },
@@ -16,5 +16,3 @@ const TemplateWrapper = ({ children }) => (
     <div>{children}</div>
   </div>
 );
-
-export default TemplateWrapper;
